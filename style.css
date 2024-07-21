@@ -63,8 +63,8 @@ html, body {
 #center-panel {
     display: flex;
     gap: 5px;
-    /* align-items: center; */
-    /* justify-content: center;  */
+    align-items: center; 
+    justify-content: center; 
     flex-wrap: wrap;
     width: 100%;
     height: calc(100% - 90px);
@@ -90,4 +90,18 @@ html, body {
 
 .bubble:hover {
     background-color: #94d2bd;
+}
+
+#game-over-text {
+    color: white;
+    font-size: 3rem;
+    margin-bottom: 10%;
+}
+
+#game-end-box {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    justify-content: center;
+    align-items: center;
 }
